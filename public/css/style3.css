@@ -1,0 +1,47 @@
+.accueil_1{
+  margin-bottom: 400px;
+}
+
+.accueil-glob{
+  display: grid;
+  grid-auto-flow: row;
+
+}
+
+.custom-container {
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top : 20px;
+  padding:20px;
+  border: 1px solid green;
+  background-color: rgb(35, 116, 62);
+  border-radius: 8px;
+}
+
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  color:white;
+  font-size:16px;
+}
+
+.custom-col {
+  flex: 1 0 100%;
+  padding: 5px 15px;
+}
+
+.custom-col p{
+  font-size: 18px;
+  padding:5px;
+}
+
+@media (min-width: 576px) {
+  .custom-col {
+      flex: 0 0 50%;
+      max-width: 50%;
+  }
+}

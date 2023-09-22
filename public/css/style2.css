@@ -1,0 +1,138 @@
+/* Police */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+/* Général */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+ }
+
+.kiwi2{
+  padding: 40px 25px;
+  border: 1px solid rgb(214, 237, 255);
+  background: var(--backgr-color);
+}
+
+.kiwi2 h4{
+  font-size: 25px;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+}
+
+.kiwi2-2 img{
+  max-width: 35em;
+  width:100%;
+  height: auto;
+  text-align: right;
+}
+
+.kiwi2-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  border-bottom : 2px solid var(--text-color);
+}
+.kiwi2-2 p{
+  text-align: start;
+  padding: 20px;
+  margin: 20px;
+  font-size: 18px;
+}
+.kiwi2-img{
+  text-align: center;
+  padding: 15px;
+}
+
+.kiwi2-3 img{
+  max-width: 35em;
+  width:100%;
+  height: auto;
+  text-align: right;
+}
+
+.kiwi2-3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  border-bottom : 2px solid var(--backgr-color);
+}
+.kiwi2-3 p{
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 18px;
+}
+.kiwi2-3-img{
+  text-align: center;
+  padding: 15px;
+}
+/* Voiture */
+.kiwi3{
+  background-color: var(--backgr-color);
+  place-items: center;
+  display:grid ;
+  grid-template-columns:1fr 2fr;
+  grid-gap: 15px;
+}
+.kiwi3_image{
+  border: 2px solid var(--second-color);
+  border-radius: 10px;
+  padding: 15px;
+  margin:20px;
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+
+}
+.kiwi3_1{
+  padding:20px;
+}
+.kiwi3_2{
+  padding: 0 20px;
+  font-size:18px;
+}
+
+.kiwi2-map{
+  padding: 15px;
+  display:flex;
+  align-items:center;
+}
+
+/* Format Mobile */
+@media (max-width: 768px) {
+  .kiwi2{
+    padding: 40px 5px;
+  }
+  .kiwi2-2{
+    grid-template-columns: 1fr;
+  }
+  .kiwi2-2 img {
+    text-align: center;
+  }
+  .kiwi2-3{
+    grid-template-columns: 1fr;
+  }
+  .kiwi2-3 img {
+    text-align: center;
+  }
+
+  /* Voiture */
+  .kiwi3{
+    grid-template-columns: 1fr;
+  }
+  .kiwi3_image{
+    margin:0 20px;
+    height: 300px;
+    width: 300px;
+  }
+  .kiwi3_2{
+    text-align: center;
+    font-size:16px;
+    
+  }
+}

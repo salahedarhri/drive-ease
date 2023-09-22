@@ -1,0 +1,119 @@
+/* Police */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+/* Général */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+ }
+
+.product-grid {
+  padding:20px;
+  display: grid;
+  grid-gap: 1em; /* Adjust the gap between products as needed */
+}
+
+@media (min-width: 40em) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for screens wider than 40em */
+  }
+}
+
+@media (min-width: 49em) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr); /* 2 columns for screens wider than 40em */
+  }
+}
+
+@media (min-width: 64em) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for screens wider than 64em */
+  }
+}
+
+.container {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.image {
+  width: 190px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.kiwi{
+  display: grid;
+  place-items: center;
+  border: 1px solid rgb(214, 237, 255);
+  background: var(--backgr2-color);
+}
+.decouv-btn{
+  padding: 12px 20px;
+  color: white;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 1rem;
+  font-size: 14px;
+  transition: background-color 0.2s, color 0.2s,font-size 0.2s;
+}
+
+.decouv-btn:hover{
+  background-color: var(--third-color);
+  color: var(--main-color);
+  font-size: 15px;
+}
+
+
+/* 
+.kiwi{
+margin: 20px;
+display: grid;
+place-items: center;
+border: 1px solid rgb(0, 0, 0);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table th {
+  text-align: left;
+  font-weight: bold;
+}
+
+.table td {
+  text-align: center;
+}
+
+*/

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>DE: Joignez-nous !</title>
+  
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="accueil.html"><img src="./images/logo.png" alt="illust1"></a>
+    </div>
+    <a class="inscris"href="connexion.html">Déjà Inscris ?</a>
+  </nav>
+
+  <!-- Entrer via localhost -->
+  <div class="div-inscript">
+    <h2>Inscription client</h2>
+    <form class="form-inscript" action="scripts/formulaire_client.php" method="post">
+      <label for="nom">Nom :</label>
+      <input type="text" name="nom" id="nom" required>
+      <br>
+      <label for="prenom">Prénom :</label>
+      <input type="text" name="prenom" id="prenom" required>
+      <br>
+      <label for="email">E-mail :</label>
+      <input type="email" name="email" id="email" required>
+      <br>
+      <label for="telephone">Téléphone :</label>
+      <input type="text" name="telephone" id="telephone" required>
+      <br>
+      <label for="adresse">Adresse :</label>
+      <input type="text" name="adresse" id="adresse" required>
+      <br>
+      <label for="ville">Ville :</label>
+      <input type="text" name="ville" id="ville" required>
+      <br>
+      <label for="code_postal">Code postal :</label>
+      <input type="text" name="code_postal" id="code_postal" required>
+      <br>
+      <label for="pays">Pays :</label>
+      <input type="text" name="pays" id="pays" required>
+      <br>
+      <input class="boutton-inscription" type="submit" value="S'inscrire">
+    </form>
+  </div>
+
+
+  
+</body>
+</html>

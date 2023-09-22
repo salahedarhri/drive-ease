@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: url(../images/abstract-surface-textures-white-concrete-stone-wall.jpg) no-repeat center center fixed;
+  background-size:cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Admin Header */
+.admin-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.admin-header__logo img {
+  width: 100px;
+  height: auto;
+}
+
+.admin-header__navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-header__navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.admin-header__navigation a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.admin-header__navigation a:hover {
+  color: #ff7f50;
+}
+
+/* Admin Sidebar */
+.admin-sidebar {
+  width: 250px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Admin Content */
+.admin-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Admin Footer */
+.admin-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Dashboard Widgets */
+.dashboard-widgets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.widget {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.widget h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* public/css/admin.css */
+
+/* User List */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody td a {
+  margin-right: 10px;
+}
+
+tbody td form {
+  display: inline;
+}
+
+tbody td button {
+  background-color: #ff4d4f;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+tbody td button:hover {
+  background-color: #e53935;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .dashboard-widgets {
+      grid-template-columns: 1fr;
+  }
+
+  .admin-sidebar {
+      width: 100%;
+  }
+}
