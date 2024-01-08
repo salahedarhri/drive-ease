@@ -4,8 +4,4 @@
 
 
 
-
-<!-- Les voitures Disponibles -->
-
-
 @endsection

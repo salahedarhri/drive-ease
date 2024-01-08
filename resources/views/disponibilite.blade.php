@@ -33,7 +33,7 @@
             <p class="price"> {{$voiture['prixVoiture']}} DH/jour </p>
     
             <a href="/voiture/{{$voiture['id']}}"  >
-              <form action="{{ route('confirmation')}}">
+              <form action="">
 
                 <button class="decouv-btn">Choisir</button>
               </form>

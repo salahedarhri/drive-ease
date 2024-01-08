@@ -3,8 +3,6 @@
 use App\Http\Controllers\Admin\AdminUserController;
 use App\Http\Controllers\Admin\AdminReservationController;
 use App\Http\Controllers\Admin\AdminVoitureController;
-use App\Http\Controllers\Admin\AdminProfileController;
-use App\Http\Controllers\UserController;
 use App\Http\Controllers\VoitureController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\ProfileController;
@@ -93,8 +91,10 @@ Route::prefix('admin')->group(function () {
 
 /* Login & Register */
 Route::get('/dashboard', function () {
+    
     $user = auth()->user();
     $reservations = Reservation::where('user_id', $user->id)->get();
+    
     return view('dashboard', [
         'user' => $user,
         'reservations' => $reservations,
