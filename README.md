@@ -18,4 +18,9 @@ DriveEase is an E-commerce website project dedicated to car rental services. usi
 - `Daisy UI`
 
 ## Admin Dashboard 
+<img src="https://github.com/salahedarhri/driveease-car-rental/blob/main/voitures.JPG" width="100%" alt="DriveEase Admin Dashboard">
+<img src="https://github.com/salahedarhri/driveease-car-rental/blob/main/ajouter-voiture.JPG" width="100%" alt="DriveEase Admin Dashboard">
+<img src="https://github.com/salahedarhri/driveease-car-rental/blob/main/modifier-voiture.JPG" width="100%" alt="DriveEase Admin Dashboard">
+<img src="https://github.com/salahedarhri/driveease-car-rental/blob/main/lieux.JPG" width="100%" alt="DriveEase Admin Dashboard">
+<img src="https://github.com/salahedarhri/driveease-car-rental/blob/main/ajouter-lieu.JPG" width="100%" alt="DriveEase Admin Dashboard">
 
