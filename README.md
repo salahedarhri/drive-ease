@@ -3,6 +3,7 @@
 # DriveEase
 
 DriveEase is an E-commerce website project dedicated to car rental services. using Laravel, Tailwind CSS, Alpine.js and Livewire.<br>This is an early version of the project, the actual repository is private for the moment.
+- Visit the Website : <a href="https://driveease-location.com" target="_blank">DriveEase</a>
 
 ## Features 
 - Online Payment functionality using Stripe.
