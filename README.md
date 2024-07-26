@@ -8,8 +8,8 @@ DriveEase is an E-commerce website project dedicated to car rental services. usi
 ## 🚘 Features 
 - Online Payment functionality using Stripe.
 - Responsive Design with high focus on UX.
-- Admin Dashboard for Product, User, Order and Newsletter management.
-- SEO Optimized while maintaining Aesthetically pleasing UI.
+- Admin Dashboard for Cars, Users, Reservations and Newsletter management.
+- SEO Optimized, maintaining Aesthetically pleasing & dynamic UI.
 
 ## 🚘 Tech Stack & Technologies
 - `Laravel`
